@@ -59,7 +59,7 @@ public class MazeTSP extends TSP implements ProblemVisualizable {
 
         // Distancia desde el último queso hasta la posición de salida
         distance += this.dist(this.posCities.get(values[i]), this.posExit);
-        return 0;
+        return distance;
     }
 
     /**

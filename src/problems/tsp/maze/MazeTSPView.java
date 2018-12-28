@@ -33,8 +33,8 @@ public class MazeTSPView extends JPanel implements ProblemView{
 	private static Color grassColor= new Color(102,153,51);
 	
 	// Images
-	public static final Image hamster = Toolkit.getDefaultToolkit().getImage("problems/tsp/maze/imgs/hamster.png");
-	public static final Image cheese = Toolkit.getDefaultToolkit().getImage("problems/tsp/maze/imgs/queso.png");	
+	public static final Image hamster = Toolkit.getDefaultToolkit().getImage("/Users/josemanuelbaezsoriano/NetBeansProjects/Practica3/src/problems/tsp/maze/imgs/hamster.png");
+	public static final Image cheese = Toolkit.getDefaultToolkit().getImage("/Users/josemanuelbaezsoriano/NetBeansProjects/Practica3/src/problems/tsp/maze/imgs/queso.png");	
 	Image scaledHamster, scaledCheese;								// Scaled images
 	BufferedImage mazeImage;										// Image of the maze
 
