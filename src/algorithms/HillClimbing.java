@@ -7,6 +7,8 @@ import optimization.OptimizationAlgorithm;
 
 public class HillClimbing extends OptimizationAlgorithm {
 
+    int nOfNeighbors = 0;
+    
     @Override
     public void search() {
         boolean improves = true;
@@ -62,6 +64,7 @@ public class HillClimbing extends OptimizationAlgorithm {
             for ( int j = 0; j < length && j!= i; j++ ) {
                 newConfig = new Configuration(this.swap(configuration.getValues(), i, j));
                 result.add(newConfig);
+                this.nOfNeighbors++;
             }
         }
 

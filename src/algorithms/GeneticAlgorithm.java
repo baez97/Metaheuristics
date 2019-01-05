@@ -245,6 +245,15 @@ public class GeneticAlgorithm extends OptimizationAlgorithm{
     }
     @Override
     public void showAlgorithmStats() {
+        System.out.println("Population size  -> " + this.populationSize);
+        System.out.println("N of generations -> " + this.nGenerations);
+        System.out.println("Prob of crossover-> " + this.probCrossover);
+        System.out.println("Prob of mutation -> " + this.probMutation);
+
+        System.out.println("Selection method -> TOURNAMENT");
+        System.out.println("Crossover method -> TWO POINTS crossover");
+        System.out.println("Replacement      -> ELITISM");
+        
     }
 
     @Override
